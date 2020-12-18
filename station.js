@@ -2,12 +2,11 @@
 
 let req = await new Request("https://www.windguru.cz/int/wgsapi.php?uid=0080A3AFE725&password=0b8ff2b56e98b5d4fb4fcdd6145bd003&q=station_data_current"
 );
-
 let json = await req.loadJSON();
 
-let req2 = await new Request("http://wbureau.free.fr/IMG/logo4.PNG")
+let req2 = await new Request("http://wbureau.free.fr/IMG/logo4.PNG");
 
-let img = await req2.loadImage()
+let img = await req2.loadImage();
  
 //log(json);
 
@@ -32,7 +31,8 @@ gradient.locations = [0, 1];
 gradient.colors = [
 new Color("141414"),
 new Color("13233F")
-]
+];
+
 w.backgroundGradient = gradient ;
 
 w.url = "https://www.windguru.cz/28999" ;
