@@ -1,3 +1,5 @@
+// For personnal use only - created by William Bureau
+
 let req = await new Request("https://www.windguru.cz/int/wgsapi.php?uid=0080A3AFE725&password=0b8ff2b56e98b5d4fb4fcdd6145bd003&q=station_data_current"
 );
 
